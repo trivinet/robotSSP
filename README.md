@@ -30,9 +30,6 @@ ev3_project/
 ├── utils.py # Constants and helpers
 └── README.md # This file
 
-yaml
-Copy code
-
 ---
 
 ## 🧠 Behavior Overview
