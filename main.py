@@ -8,7 +8,7 @@ print("Starting robot...")
 
 try:
     while True:
-        if robot.is_white_tape_detected():
+        """ if robot.is_white_tape_detected():
             print("White boundary detected! Turning.")
             robot.turn_right()
             continue
@@ -20,8 +20,10 @@ try:
             robot.turn_left()
             continue
 
-        robot.move_forward()
-        sleep(0.1)
+        robot.move_forward() """
+        sleep(2)
+        print("Already started robot...")
+        
 
 except KeyboardInterrupt:
     robot.stop()

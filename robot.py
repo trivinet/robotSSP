@@ -3,7 +3,7 @@ from ev3dev2.motor import LargeMotor, MediumMotor, OUTPUT_B, OUTPUT_C, OUTPUT_A,
 from ev3dev2.sensor.lego import ColorSensor, UltrasonicSensor, TouchSensor, GyroSensor
 from ev3dev2.sound import Sound
 from time import sleep
-from utils import (PORT_TOUCH_LEFT,  PORT_TOUCH_RIGHT, DEFAULT_SPEED, DEFAULT_SPEED_ARM, WHITE_THRESHOLD, OBSTACLE_DISTANCE_CM, TURN_DEGREES)
+from utils import (PORT_TOUCH_LEFT,  PORT_TOUCH_RIGHT, DEFAULT_SPEED, DEFAULT_SPEED_ARM, WHITE_THRESHOLD, OBSTACLE_DISTANCE_CM, DEGREES_180, DEGREES_360, DEGREES_90)
 
 class Robot:
     def __init__(self):
